@@ -30,7 +30,7 @@ describe 'navigate' do
   end
 end
 
-describe 'form' do
+describe 'form' do 
   before do
     @artist = Artist.create(name: "My Artist", bio: "My artist bio")
     @genre = Genre.create(name: "My Genre")
